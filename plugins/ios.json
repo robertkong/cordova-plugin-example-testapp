@@ -7,10 +7,10 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
+        "com-moduscreate-plugins-echo": {
             "PACKAGE_NAME": "com.moduscreate.testapp"
         },
-        "com-moduscreate-plugins-echo": {
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.moduscreate.testapp"
         }
     },

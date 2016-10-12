@@ -12,8 +12,8 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "cordova-plugin-whitelist": "1.3.0",
-    "com-moduscreate-plugins-echo": "0.0.2"
+    "com-moduscreate-plugins-echo": "0.0.2",
+    "cordova-plugin-whitelist": "1.3.0"
 }
 // BOTTOM OF METADATA
 });

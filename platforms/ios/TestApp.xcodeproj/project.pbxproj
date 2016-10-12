@@ -15,7 +15,7 @@
 		3047A5121AB8059700498E2A /* build-debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */; };
 		3047A5131AB8059700498E2A /* build-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5101AB8059700498E2A /* build-release.xcconfig */; };
 		3047A5141AB8059700498E2A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5111AB8059700498E2A /* build.xcconfig */; };
-		268D2B2DB4FF4B43BDC536F3 /* ModusEcho.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A35E4945904F2F81CB888F /* ModusEcho.m */; };
+		64AE5E631C444E32B8069F1F /* ModusEcho.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D663A716A34C5681A54356 /* ModusEcho.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "TestApp/config.xml"; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		E7A35E4945904F2F81CB888F /* ModusEcho.m */ = {isa = PBXFileReference; name = "ModusEcho.m"; path = "../../../../../cordova-plugin-example/src/ios/ModusEcho.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		F9310DC4D8A745A596B3BACF /* ModusEcho.h */ = {isa = PBXFileReference; name = "ModusEcho.h"; path = "../../../../../cordova-plugin-example/src/ios/ModusEcho.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		85D663A716A34C5681A54356 /* ModusEcho.m */ = {isa = PBXFileReference; name = "ModusEcho.m"; path = "com-moduscreate-plugins-echo/ModusEcho.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		9B0BE4FF8DDC46ADAD9D25E0 /* ModusEcho.h */ = {isa = PBXFileReference; name = "ModusEcho.h"; path = "com-moduscreate-plugins-echo/ModusEcho.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,8 +159,8 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				E7A35E4945904F2F81CB888F /* ModusEcho.m */,
-				F9310DC4D8A745A596B3BACF /* ModusEcho.h */,
+				85D663A716A34C5681A54356 /* ModusEcho.m */,
+				9B0BE4FF8DDC46ADAD9D25E0 /* ModusEcho.h */,
 			);
 			name = Plugins;
 			path = "TestApp/Plugins";
@@ -275,7 +275,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				268D2B2DB4FF4B43BDC536F3 /* ModusEcho.m in Sources */,
+				64AE5E631C444E32B8069F1F /* ModusEcho.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
